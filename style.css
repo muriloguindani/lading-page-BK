@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box
+}
+header img{
+    width: 90px;
+}
+
+header{
+    background-color: rgb(245, 235, 220);
+}
+
+.nav .nav-link{
+    color:  #502314
+}
+
+.nav .nav-link:hover{
+    color:  #502314;;
+}
+
+.nav .nav-link.active{
+    background-color:  #502314 ;
+    color:  rgb(245, 235, 220) ;
+}
+
+.text-colored{
+    color:  #502314 ;
+}
+
+#quem-somos h1,
+#quem-somos h3,
+#cardapio h1,
+#app h1,
+#fale-conosco h1{
+    font-family: 'Anton', sans-serif;
+}
+
+#sobre-nos{
+    background-color: rgb(240, 229, 213);
+}
+
+.tab-pane p{
+    color:  rgb(214, 35, 0);
+}
+
+.tab-pane .col-md-3 p{
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+#app{
+    background-color: rgb(219, 50, 16) ;
+}
+
+.text-app h2{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+.text-app img{
+    padding: 5px;
+}
+
+.btn,
+.btn:hover{
+    background-color: #502314 ;
+    color:  rgb(245, 235, 220) ;
+}
+
+footer{
+    background-color: #502314 ;
+    padding: 10px;
+}
+
+footer h6{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 767px){
+    .text-app img{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .carousel-item img{
+        width: 100%;
+    }
+
+    #app img{
+        width: 100%  
+    }
+
+    .text-app h2{
+        font-size: 55px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .carousel-item img{
+        width: 100%;
+    }
+
+    #quem-somos img{
+        width: 100%;
+    }
+
+    .text-app h2{
+        font-size: 60px;
+    }
+
+    #app img{
+        width: 100%  
+    }
+}
